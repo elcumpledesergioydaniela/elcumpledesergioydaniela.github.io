@@ -60,7 +60,7 @@ window.sr = ScrollReveal();
         z: 100
     },
 		duration: 2500, //tiempo
-		delay:1500,
+		delay:2000,
 		origin: 'top', //origen
 		scale: 0.10,
 		distance: '-0' //distancia
