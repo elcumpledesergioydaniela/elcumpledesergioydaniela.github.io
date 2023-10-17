@@ -1,6 +1,5 @@
  body{
   color: black;
-background-color: #9B7A07;
   width: 100%;
  margin: 0;
   overflow-x: hidden;
@@ -146,13 +145,13 @@ align-items: center;
 
 #boton{
   text-decoration:none;
-  color:#fff;
-  background-color: #9B7A07;
+  color:#000;
+  background-color: #FCD4B7;
   border-top: 3px solid ;
   border-bottom: 3px solid ;
   border-right: 3px solid ;
   border-left: 3px solid ;
-  border-color: #9B7A07;
+  border-color: #FCD4B7;
   height: 30px;
   font-size: 15px;
  
@@ -164,13 +163,13 @@ align-items: center;
 
 #boton:hover{
   text-decoration:none;
-  background-color: #fff;
+  background-color: transparent;
   color: #9B7A07;
   border-top: 3px solid ;
   border-bottom: 3px solid ;
   border-right: 3px solid ;
   border-left: 3px solid ;
-  border-color: #9B7A07;
+  border-color: #FCD4B7;
  
 }
 #boton2{
