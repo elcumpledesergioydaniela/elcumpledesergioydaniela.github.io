@@ -228,7 +228,10 @@ margin-top: -10px;
 ;
 
 }
-
+#carrusel{
+  border-color: #F5F1ED; 
+  margin-top:-70px;
+}
 
 .faltan{
  font-family: 'Cormorant Garamond', serif;
@@ -563,11 +566,11 @@ font-family: 'Cantata One', serif;
    font-family: 'Cantata One', serif;
   font-size: 15px;
   color:#C8B18F;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
 }
 .porqueformas1{
    font-family: 'Cantata One', serif;
-  font-size: 17px;
+  font-size: 16px;
   color:#C8B18F;
   letter-spacing: 2px;
 }
@@ -587,7 +590,7 @@ font-family: 'Cantata One', serif;
 }
 .nompadres{
   font-family: 'Updock', cursive;
-  font-size: 30px;
+  font-size: 28px;
     color:#252323;
     font-weight: 570;
     z-index: 99;
@@ -1205,7 +1208,7 @@ border-top-left-radius: 30px 30px;
  
 }
 #slider2{
-  border-top: 4px solid black;
+   border-top: 4px solid black;
   border-bottom: 4px solid white;
   border-right: 4px solid white;
   border-left: 4px solid white;
@@ -1213,7 +1216,6 @@ border-top-left-radius: 30px 30px;
   border-color: #C8B18F;
 
   color:black;
-  
  
 }
 .hotel{
