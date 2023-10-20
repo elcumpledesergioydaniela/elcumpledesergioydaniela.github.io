@@ -25,6 +25,14 @@ window.sr = ScrollReveal();
 
 
 	}); 
+		sr.reveal('#padres2', {
+		duration: 2500, //tiempo
+		delay:500,
+		origin: 'left', //origen
+		distance: '50px' //distancia
+
+
+	}); 
 	sr.reveal('#padres', {
 		duration: 2500, //tiempo
 		delay:500,
@@ -34,10 +42,11 @@ window.sr = ScrollReveal();
 
 	}); 
 	sr.reveal('#nombresPadres', {
-		duration: 2500, //tiempo
-		delay:500,
-		origin: 'left', //origen
-		distance: '50px' //distancia
+		duration: 1500, //tiempo
+		delay:700,
+		origin: 'top', //origen
+		scale: 0.10,
+		distance: '-0' //distancia
 
 
 	}); 
@@ -151,7 +160,7 @@ window.sr = ScrollReveal();
 	}); 
 			sr.reveal('#icono', {
 		duration: 2000, //tiempo
-		delay:600,
+		delay:700,
 		origin: 'top', //origen
 		scale: 0.10,
 		distance: '-0' //distancia
