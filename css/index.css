@@ -258,7 +258,7 @@ align-items: center;
 .social-icons a:hover i{transform:scale(2.2);
   -ms-transform:scale(2.2);
   -webkit-transform:scale(2.2);
-  color:#9B7A07;background:-webkit-linear-gradient(45deg,#9B7A07,#9B7A07);
+  color:#FCD4B7;background:-webkit-linear-gradient(45deg,#FCD4B7,#FCD4B7);
   -webkit-background-clip:text;
   -webkit-text-fill-color:transparent;
   transition:all 265ms ease-in

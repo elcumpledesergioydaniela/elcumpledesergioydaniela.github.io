@@ -109,6 +109,12 @@ background-attachment: fixed;
     width: 100%;
     bottom: -50px;
 }
+.curveado4{
+    position: absolute;
+    width: 100%;
+    bottom: -10px;
+}
+
 @media(max-width:768px){
     .contenido .info h1{
         font-size: 35px;
@@ -1528,6 +1534,11 @@ display: block;
     position: absolute;
     width: 100%;
     bottom: -50px;
+}
+.curveado4{
+    position: absolute;
+    width: 100%;
+    bottom: -100px;
 }
 .curveado2{
     
