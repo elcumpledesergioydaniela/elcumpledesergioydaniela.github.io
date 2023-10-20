@@ -339,7 +339,7 @@ margin-top: -10px;
   margin-top: -132px;
 }
 #bajar{
-  margin-bottom: -102px;
+  margin-bottom: -132px;
 }
 }
 #cuenta {
@@ -1507,6 +1507,8 @@ margin-left: 5px;
 }
 
 }
+
+
 @media (min-width: 1200px) { /*laptop*/
   .portada{
 
@@ -1538,7 +1540,8 @@ display: block;
 .curveado4{
     position: absolute;
     width: 100%;
-    bottom: -100px;
+    bottom: -200px;
+    z-index: -999;
 }
 .curveado2{
     
@@ -1598,6 +1601,17 @@ letter-spacing: 3px;
 margin-left: 25px;
 
 }
+}
+@media (max-width: 1200px) { /*iPADS*/
+  .curveado4{
+    position: absolute;
+    width: 100%;
+    bottom: -200px;
+    z-index: -999;
+}
+
+
+
 }
 .btnWhats{
   text-decoration:none;
