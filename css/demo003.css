@@ -1602,16 +1602,42 @@ margin-left: 25px;
 
 }
 }
-@media (max-width: 1200px) { /*iPADS*/
+
+@media all and (device-width: 820px) and (device-height: 1180px) and (orientation:portrait) { /*IPAD AIR*/
   .curveado4{
     position: absolute;
     width: 100%;
     bottom: -200px;
     z-index: -999;
 }
-
-
-
+.imagen3{
+  width: 40%;
+  display: block;
+  margin: auto;
+}
+.imagen1{
+  width: 30%;
+  display: block;
+  margin: auto;
+}
+}
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {/*iPAD MINI*/
+  .curveado4{
+    position: absolute;
+    width: 100%;
+    bottom: -200px;
+    z-index: -999;
+}
+.imagen3{
+  width: 40%;
+  display: block;
+  margin: auto;
+}
+.imagen1{
+  width: 30%;
+  display: block;
+  margin: auto;
+}
 }
 .btnWhats{
   text-decoration:none;
