@@ -464,27 +464,27 @@ function personas1() {
     window.open("pases/inicio1.html", "_self");        
 }
 function personas2() {
-    window.open("inicio2.html", "_self");        
+    window.open("pases/inicio2.html", "_self");        
 }
 function personas3() {
-    window.open("inicio3.html", "_self");        
+    window.open("pases/inicio3.html", "_self");        
 }
 function personas4() {
-    window.open("inicio4.html", "_self");        
+    window.open("pases/inicio4.html", "_self");        
 }
 function personas5() {
-    window.open("inicio5.html", "_self");        
+    window.open("pases/inicio5.html", "_self");        
 }
 function personas6() {
-    window.open("inicio6.html", "_self");        
+    window.open("pases/inicio6.html", "_self");        
 }
 function personas7() {
-    window.open("inicio7.html", "_self");        
+    window.open("pases/inicio7.html", "_self");        
 }
 function personas8() {
-    window.open("inicio8.html", "_self");        
+    window.open("pases/inicio8.html", "_self");        
 }
 function personas9() {
-    window.open("inicio9.html", "_self");        
+    window.open("pases/inicio9.html", "_self");        
 }
 

@@ -102,7 +102,7 @@ window.sr = ScrollReveal();
 	});
 	
 	sr.reveal('.textodondeycuando', {
-		duration: 2500, //tiempo
+		duration: 2200, //tiempo
 		//delay:1500,
 		origin: 'bottom', //origen
 		distance: '40px' //distancia
@@ -259,7 +259,7 @@ sr.reveal('#textolibre', {
 	});
 sr.reveal('.btnComoLlegar', {
 		duration: 2500, //tiempo
-		delay:1000,
+		delay:800,
 		origin: 'top', //origen
 		scale: 0.10,
 		distance: '-0' //distancia
