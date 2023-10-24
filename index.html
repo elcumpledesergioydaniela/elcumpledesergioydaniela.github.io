@@ -95,20 +95,7 @@
 
     
 <script>
-   function copiar(){
-  var origen = document.getElementById('target1');
-  var destino = document.getElementById('target2');
-  var copyFrom = document.createElement("textarea");
-  copyFrom.textContent = origen.value;
-  var body = document.getElementsByTagName('body')[0];
-  body.appendChild(copyFrom);
-  copyFrom.select();
-  document.execCommand('copy');
-  alert("Copiado al portapapeles!");
-  body.removeChild(copyFrom);
-  destino.focus();
-  document.execCommand('paste');
-}
+  
 
 
 
@@ -165,7 +152,7 @@ background-image: url(img/fondoInicio.png); "  >
                 <ul>
                      <div class="row justify-content-center">
                          <input class="mt-3 col-7" type="text" value="https://labodadealondrayeduardo.github.io/pases/inicio1.html" id="target1" readonly>
-                    <button id="boton" class="example2 col-4 col-md-3 mt-3" onclick="copiar()">Copiar</button>
+                    <button id="boton" class="example2 col-4 col-md-3 mt-3" onclick="copiar1()">Copiar</button>
                     <a id="boton3" class=" col-5 col-md-3 mt-3" onclick="personas1()">Ver</a>
                     </div>
                     <br>
@@ -186,8 +173,8 @@ background-image: url(img/fondoInicio.png); "  >
             </div></a>
                 <ul>
                    <div class="row justify-content-center">
-                         <input class="mt-3 col-7" type="text" value="https://labodadealondrayeduardo.github.io/pases/inicio2.html" id="target1" readonly>
-                    <button id="boton" class="example2 col-4 col-md-3 mt-3" onclick="copiar()">Copiar</button>
+                         <input class="mt-3 col-7" type="text" value="https://labodadealondrayeduardo.github.io/pases/inicio2.html" id="target2" readonly>
+                    <button id="boton" class="example2 col-4 col-md-3 mt-3" onclick="copiar2()">Copiar</button>
                     <a id="boton3" class=" col-5 col-md-3 mt-3" onclick="personas2()">Ver</a>
                     </div>
                     <br>
@@ -207,8 +194,8 @@ background-image: url(img/fondoInicio.png); "  >
             </div></a>
                 <ul>
                    <div class="row justify-content-center">
-                         <input class="mt-3 col-7" type="text" value="https://labodadealondrayeduardo.github.io/pases/inicio3.html" id="target1" readonly>
-                    <button id="boton" class="example2 col-4 col-md-3 mt-3" onclick="copiar()">Copiar</button>
+                         <input class="mt-3 col-7" type="text" value="https://labodadealondrayeduardo.github.io/pases/inicio3.html" id="target3" readonly>
+                    <button id="boton" class="example2 col-4 col-md-3 mt-3" onclick="copiar3()">Copiar</button>
                     <a id="boton3" class=" col-5 col-md-3 mt-3" onclick="personas3()">Ver</a>
                     </div>
                     <br>
@@ -227,8 +214,8 @@ background-image: url(img/fondoInicio.png); "  >
             </div></a>
                 <ul>
                     <div class="row justify-content-center">
-                         <input class="mt-3 col-7" type="text" value="https://labodadealondrayeduardo.github.io/pases/inicio4.html" id="target1" readonly>
-                    <button id="boton" class="example2 col-4 col-md-3 mt-3" onclick="copiar()">Copiar</button>
+                         <input class="mt-3 col-7" type="text" value="https://labodadealondrayeduardo.github.io/pases/inicio4.html" id="target4" readonly>
+                    <button id="boton" class="example2 col-4 col-md-3 mt-3" onclick="copiar4()">Copiar</button>
                     <a id="boton3" class=" col-5 col-md-3 mt-3" onclick="personas4()">Ver</a>
                     </div>
                     <br>
@@ -247,8 +234,8 @@ background-image: url(img/fondoInicio.png); "  >
             </div></a>
                 <ul>
                     <div class="row justify-content-center">
-                         <input class="mt-3 col-7" type="text" value="https://labodadealondrayeduardo.github.io/pases/inicio5.html" id="target1" readonly>
-                    <button id="boton" class="example2 col-4 col-md-3 mt-3" onclick="copiar()">Copiar</button>
+                         <input class="mt-3 col-7" type="text" value="https://labodadealondrayeduardo.github.io/pases/inicio5.html" id="target5" readonly>
+                    <button id="boton" class="example2 col-4 col-md-3 mt-3" onclick="copiar5()">Copiar</button>
                     <a id="boton3" class=" col-5 col-md-3 mt-3" onclick="personas5()">Ver</a>
                     </div>
                     <br>
@@ -267,8 +254,8 @@ background-image: url(img/fondoInicio.png); "  >
             </div></a>
                 <ul>
                    <div class="row justify-content-center">
-                         <input class="mt-3 col-7" type="text" value="https://labodadealondrayeduardo.github.io/pases/inicio6.html" id="target1" readonly>
-                    <button id="boton" class="example2 col-4 col-md-3 mt-3" onclick="copiar()">Copiar</button>
+                         <input class="mt-3 col-7" type="text" value="https://labodadealondrayeduardo.github.io/pases/inicio6.html" id="target6" readonly>
+                    <button id="boton" class="example2 col-4 col-md-3 mt-3" onclick="copiar6()">Copiar</button>
                     <a id="boton3" class=" col-5 col-md-3 mt-3" onclick="personas6()">Ver</a>
                     </div>
                     <br>
@@ -287,8 +274,8 @@ background-image: url(img/fondoInicio.png); "  >
             </div></a>
                 <ul>
                    <div class="row justify-content-center">
-                         <input class="mt-3 col-7" type="text" value="https://labodadealondrayeduardo.github.io/pases/inicio7.html" id="target1" readonly>
-                    <button id="boton" class="example2 col-4 col-md-3 mt-3" onclick="copiar()">Copiar</button>
+                         <input class="mt-3 col-7" type="text" value="https://labodadealondrayeduardo.github.io/pases/inicio7.html" id="target7" readonly>
+                    <button id="boton" class="example2 col-4 col-md-3 mt-3" onclick="copiar7()">Copiar</button>
                     <a id="boton3" class=" col-5 col-md-3 mt-3" onclick="personas7()">Ver</a>
                     </div>
                     <br>
@@ -307,8 +294,8 @@ background-image: url(img/fondoInicio.png); "  >
             </div></a>
                 <ul>
                     <div class="row justify-content-center">
-                         <input class="mt-3 col-7" type="text" value="https://labodadealondrayeduardo.github.io/pases/inicio8.html" id="target1" readonly>
-                    <button id="boton" class="example2 col-4 col-md-3 mt-3" onclick="copiar()">Copiar</button>
+                         <input class="mt-3 col-7" type="text" value="https://labodadealondrayeduardo.github.io/pases/inicio8.html" id="target8" readonly>
+                    <button id="boton" class="example2 col-4 col-md-3 mt-3" onclick="copiar8()">Copiar</button>
                     <a id="boton3" class=" col-5 col-md-3 mt-3" onclick="personas8()">Ver</a>
                     </div>
                     <br>
@@ -327,8 +314,8 @@ background-image: url(img/fondoInicio.png); "  >
             </div></a>
                 <ul>
                     <div class="row justify-content-center">
-                         <input class="mt-3 col-7" type="text" value="https://labodadealondrayeduardo.github.io/pases/inicio9.html" id="target1" readonly>
-                    <button id="boton" class="example2 col-4 col-md-3 mt-3" onclick="copiar()">Copiar</button>
+                         <input class="mt-3 col-7" type="text" value="https://labodadealondrayeduardo.github.io/pases/inicio9.html" id="target9" readonly>
+                    <button id="boton" class="example2 col-4 col-md-3 mt-3" onclick="copiar9()">Copiar</button>
                     <a id="boton3" class=" col-5 col-md-3 mt-3" onclick="personas9()">Ver</a>
                     </div>
                    
