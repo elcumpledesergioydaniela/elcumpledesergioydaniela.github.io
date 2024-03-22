@@ -1,5 +1,14 @@
 window.sr = ScrollReveal();
 
+		sr.reveal('.boladisco', {
+		duration: 2500, //tiempo
+		delay:1500,
+		origin: 'bottom', //origen
+		distance: '-50px' //distancia
+
+
+	}); 
+
 		sr.reveal('.ornamentainicio', {
 		duration: 2000, //tiempo
 		//delay:1500,

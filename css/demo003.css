@@ -15,8 +15,19 @@ background-color: white;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
+.disco{
+  background-image: url(../img/discoteca6.jpg); 
+  background-size: 100%; 
+  
+}
+.botas{
+  background-image: url(../img/botas5.jpg); 
+  background-size: 100%; 
+  background-repeat: no-repeat; 
+  background-color: white;
+}
 .wrp{
-    width: 100%; height: 490px;
+    width: 100%; height: 550px;
     position: relative;
 }
 .imagenPortada{
@@ -30,11 +41,12 @@ height: 750px;
 margin-top: 0px;
 margin-bottom: 0px;
 position: center;
-z-index: 99px;
+z-index: -99px;
 background-size: 100%; 
-background-image: url(../img/A&E-1346.jpg); 
+background-image: url(../img/portada3.jpeg); 
 position: relative; 
 background-attachment: fixed;
+background-repeat: no-repeat;
 }
 
 .contenido{
@@ -50,7 +62,7 @@ background-attachment: fixed;
     width: 100%;
     max-width: 750px;
     text-align: center;
-   margin-top: 270px;
+   margin-top: 350px;
 
 }
 .contenido .info .nuestraBoda{
@@ -141,7 +153,7 @@ background-attachment: fixed;
     font-size: 18px;
     text-shadow: 0px 1px 10px rgba(0,0,0,0.4);
     margin-bottom: -95px;
-    letter-spacing: 6px;
+    letter-spacing: 4px;
 }
 .contenido3 .info3 .nombres3{
  font-family: 'Cantata One', serif;
@@ -235,7 +247,7 @@ margin-top: -10px;
 
 }
 #carrusel{
-  border-color: #F5F1ED; 
+  border-color: #F4F4F4; 
   margin-top:-70px;
 }
 
@@ -271,12 +283,15 @@ margin-top: -10px;
 }
 
 @media (max-width:320px){
-
+.wrp{
+    width: 100%; height: 370px;
+    position: relative;
+}
 .contenido .info{
     width: 100%;
     max-width: 750px;
     text-align: center;
-   margin-top: 70px;
+   margin-top: -20px;
 
 }
 .contenido .info .nuestraBoda{
@@ -285,12 +300,12 @@ margin-top: -10px;
     font-size: 13px;
     text-shadow: 0px 1px 10px rgba(0,0,0,0.4);
     margin-bottom: -95px;
-    letter-spacing: 6px;
+    letter-spacing: 4px;
 }
 .contenido .info .nombres1{
  font-family: 'Cantata One', serif;
     color: #fff;
-    font-size: 28px;
+    font-size: 23px;
     text-shadow: 0px 1px 10px rgba(0,0,0,0.4);
     margin-bottom: 5px;
     letter-spacing: 3px;
@@ -298,7 +313,7 @@ margin-top: -10px;
 .contenido .info .nombres2{
   font-family: 'Cantata One', serif;
     color: #fff;
-    font-size: 28px;
+    font-size: 23px;
     text-shadow: 0px 1px 10px rgba(0,0,0,0.4);
     margin-bottom: 10px;
     letter-spacing: 6px;
@@ -363,7 +378,7 @@ font-family: 'Tangerine', cursive;
 }
 }
 .simply-section {
-  background: #F5F1ED;
+  background: #E8E8F1;
   width: 120px;
   height: 80px;
   margin: 0 50px;
@@ -377,13 +392,13 @@ font-family: 'Tangerine', cursive;
 .simply-amount {
   display: block;
   font-size: 25px;
-  color:#252323;
+  color:#3A3B40;
   font-weight: 1000;
    font-family: 'Cantata One', serif;
 }
 
 .simply-word {
-  color:#C8B18F;
+  color:#3A3B40;
   font-weight: 400;
   font-size: 14px;
    font-family: 'Cantata One', serif;
@@ -472,7 +487,7 @@ font-family: 'Cantata One', serif;
  font-family: 'Cantata One', serif;
   font-size: 40px;
   color:#fff;
-  background-color: #8F441F; 
+  background-color: #3A3B40; 
 height:80px; 
 display:flex;
 justify-content: center; 
@@ -485,8 +500,8 @@ box-shadow: 0px 0px 30px -4px rgba(0,0,0,0.75);
   
     font-family: 'Cantata One', serif;
   font-size: 13px;
-  color:#C8B18F;
-  background-color: #F5F1ED; 
+  color:#3A3B40;
+  background-color: #E8E8F1; 
 height:40px; 
 display:flex;
 justify-content: center; 
@@ -498,22 +513,23 @@ letter-spacing: 3px;
 .mes2{
   
     font-family: 'Cantata One', serif;
-  font-size: 13px;
-  color:#C8B18F;
-  background-color: #F5F1ED; 
+  font-size: 14px;
+  color:#3A3B40;
+  background-color: #E8E8F1; 
 height:40px; 
 display:flex;
 justify-content: center; 
 align-items: center;
-letter-spacing: 1px;
+letter-spacing: 4px;
 
 }
 .año{
 font-family: 'Cantata One', serif;
   font-size: 45px;
-  color:#C8B18F;
+  color:#24292F;
   letter-spacing: 4px;
   margin-top: -13px;
+  opacity: .7;
 }
 .dondeycuandotitulo{
   font-family: 'Updock', cursive;
@@ -524,7 +540,7 @@ font-family: 'Cantata One', serif;
 .hora{
   font-family: 'Updock', cursive;
   font-size: 30px;
-  color:#8F441F;
+  color:#3A3B40;
   margin-top: -10px;
 }
 .lugar{
@@ -542,7 +558,7 @@ font-family: 'Cantata One', serif;
 font-family: 'Cantata One', serif;
   margin-top:10px;
   margin-bottom: -20px;
-  color:#C8B18F;
+  color:#3A3B40;
   font-size: 20px;
   opacity: .7;
 
@@ -571,13 +587,13 @@ font-family: 'Cantata One', serif;
 .porqueformas{
    font-family: 'Cantata One', serif;
   font-size: 15px;
-  color:#C8B18F;
+  color:#D6AE52;
   letter-spacing: 1px;
 }
 .porqueformas1{
    font-family: 'Cantata One', serif;
   font-size: 16px;
-  color:#C8B18F;
+  color:#D6AE52;
   letter-spacing: 2px;
 }
 .tespero{
@@ -606,13 +622,13 @@ font-family: 'Cantata One', serif;
  font-size:140px;
  margin-top: -95px;
  margin-bottom: -60px;
-    color:#8F441F;
+    color:#D6AE52;
     opacity: .2;
     
 }
 .textodondeycuando{
   color:#252323;
-  font-size: 12px;
+  font-size: 11px;
 font-family: 'Cantata One', serif;
 
 }
@@ -625,7 +641,7 @@ text-shadow: 0px 0px 0px;
 
 }
 .lluviaSobres{
-  color:#C8B18F;  
+  color:#D6AE52;  
   font-family: 'Updock', cursive; 
   font-size: 35px;
 }
@@ -634,17 +650,37 @@ text-shadow: 0px 0px 0px;
   font-family: 'Playfair Display', serif; 
   font-size:15px
 }
+.lluviaSobrestexto2{
+  color:#252323;  
+  font-family: 'Playfair Display', serif; 
+  font-size:25px
+}
 .iconoLluviaSobres{
   font-size: 40px; 
-  color:#C8B18F;
+  color:#D6AE52;
 
 }
 @media only screen and (max-width: 380px) and (min-width: 320px)  {
-  .contenido .info{
+  .wrp{
+    width: 100%; height: 550px;
+    position: relative;
+}
+
+
+.contenido{
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background: rgba(0,0,11,0.6);*/
+}
+.contenido .info{
     width: 100%;
     max-width: 750px;
     text-align: center;
-   margin-top: 220px;
+   margin-top: 270px;
 
 }
 .contenido .info .nuestraBoda{
@@ -689,6 +725,8 @@ text-shadow: 0px 0px 0px;
     background: transparent; /*Fondo transparente*/
     border: 2px solid #fff;
 }
+
+  
 .curveado{
     position: absolute;
     width: 100%;
@@ -728,7 +766,7 @@ text-shadow: 0px 0px 0px;
 font-family: 'Cantata One', serif;
   margin-top:10px;
   margin-bottom: -20px;
-  color:#C8B18F;
+  color:#3A3B40;
   font-size: 20px;
   opacity: .7;
 
@@ -747,7 +785,7 @@ font-family: 'Cantata One', serif;
  font-family: 'Cantata One', serif;
   font-size: 40px;
   color:#fff;
-  background-color: #8F441F; 
+  background-color: #3A3B40; 
 height:80px; 
 display:flex;
 justify-content: center; 
@@ -760,8 +798,8 @@ box-shadow: 0px 0px 30px -4px rgba(0,0,0,0.75);
   
     font-family: 'Cantata One', serif;
   font-size: 13px;
-  color:#C8B18F;
-  background-color: #F5F1ED; 
+   color:#3A3B40;
+  background-color: #E8E8F1; 
 height:40px; 
 display:flex;
 justify-content: center; 
@@ -773,33 +811,34 @@ letter-spacing: 3px;
 .mes2{
   
     font-family: 'Cantata One', serif;
-  font-size: 13px;
-  color:#C8B18F;
-  background-color: #F5F1ED; 
+  font-size: 14px;
+  color:#3A3B40;
+  background-color: #E8E8F1; 
 height:40px; 
 display:flex;
 justify-content: center; 
 align-items: center;
-letter-spacing: 1px;
+letter-spacing: 4px;
 
 }
 .año{
 font-family: 'Cantata One', serif;
   font-size: 45px;
-  color:#C8B18F;
+  color:#24292F;
   letter-spacing: 4px;
   margin-top: -13px;
+  opacity: .7;
 }
 .porqueformas{
    font-family: 'Cantata One', serif;
   font-size: 15px;
-  color:#C8B18F;
+  color:#D6AE52;
   letter-spacing: 3px;
 }
 .porqueformas1{
    font-family: 'Cantata One', serif;
   font-size: 16px;
-  color:#C8B18F;
+  color:#D6AE52;
   letter-spacing: 2px;
 }
 .tespero{
@@ -816,7 +855,7 @@ font-family: 'Cantata One', serif;
 font-family: 'Cantata One', serif;
   margin-top:10px;
   margin-bottom: -20px;
-  color:#C8B18F;
+  color:#3A3B40;
   font-size: 15px;
   opacity: .7;
 
@@ -835,7 +874,7 @@ font-family: 'Cantata One', serif;
  font-family: 'Cantata One', serif;
   font-size: 30px;
   color:#fff;
-  background-color: #8F441F; 
+  background-color: #3A3B40; 
 height:80px; 
 display:flex;
 justify-content: center; 
@@ -848,8 +887,8 @@ box-shadow: 0px 0px 30px -4px rgba(0,0,0,0.75);
   
     font-family: 'Cantata One', serif;
   font-size: 10px;
-  color:#C8B18F;
-  background-color: #F5F1ED; 
+   color:#3A3B40;
+  background-color: #E8E8F1; 
 height:40px; 
 display:flex;
 justify-content: center; 
@@ -862,32 +901,33 @@ letter-spacing: 3px;
   
     font-family: 'Cantata One', serif;
   font-size: 10px;
-  color:#C8B18F;
-  background-color: #F5F1ED; 
+   color:#3A3B40;
+  background-color: #E8E8F1; 
 height:40px; 
 display:flex;
 justify-content: center; 
 align-items: center;
-letter-spacing: 1px;
+letter-spacing: 4px;
 
 }
 .año{
 font-family: 'Cantata One', serif;
   font-size: 35px;
-  color:#C8B18F;
+  color:#24292F;
   letter-spacing: 4px;
   margin-top: -13px;
+  opacity: .7;
 }
 .porqueformas{
    font-family: 'Cantata One', serif;
   font-size: 13px;
-  color:#C8B18F;
+  color:#D6AE52;
   letter-spacing: 3px;
 }
 .porqueformas1{
    font-family: 'Cantata One', serif;
   font-size: 14px;
-  color:#C8B18F;
+  color:#D6AE52;
   letter-spacing: 2px;
 }
 .tespero{
@@ -916,7 +956,7 @@ text-shadow: 0px 1px 10px rgba(0,0,0,0.4);
  font-size:140px;
  margin-top: -95px;
  margin-bottom: -60px;
-    color:#8F441F;
+    color:#D6AE52;
     opacity: .2;
     
 }
@@ -930,7 +970,7 @@ text-shadow: 0px 1px 10px rgba(0,0,0,0.4);
 .hora{
   font-family: 'Updock', cursive;
   font-size: 30px;
-  color:#8F441F;
+  color:#3A3B40;
   margin-top: -10px;
 }
 .lugar{
@@ -956,7 +996,7 @@ text-shadow: 0px 0px 0px;
 
 }
 .lluviaSobres{
-  color:#C8B18F;  
+  color:#D6AE52;  
   font-family: 'Updock', cursive; 
   font-size: 25px;
 }
@@ -967,7 +1007,7 @@ text-shadow: 0px 0px 0px;
 }
 .iconoLluviaSobres{
   font-size: 30px; 
-  color:#C8B18F;
+  color:#D6AE52;
 
 }
 }
@@ -992,7 +1032,7 @@ font-family: 'Great Vibes', cursive;
 .invitacionpara{
 font-family: 'Playfair Display', serif;
   font-size: 17px;
-  color:#C8B18F;
+  color:#D6AE52;
 
 }
 .numMesa{
@@ -1033,7 +1073,7 @@ font-family: 'Great Vibes', cursive;
 .invitacionpara{
 font-family: 'Playfair Display', serif;
   font-size: 17px;
-  color:#C8B18F;
+  color:#D6AE52;
 
 }
 .numMesa{
@@ -1074,7 +1114,7 @@ font-family: 'Great Vibes', cursive;
 .invitacionpara{
 font-family: 'Playfair Display', serif;
   font-size: 15px;
-  color:#C8B18F;
+  color:#D6AE52;
 
 }
 .numMesa{
@@ -1171,7 +1211,7 @@ border-bottom-left-radius: 30px 30px;
   border-bottom: 2px solid #E5CA5E;
   border-right: 2px solid #E5CA5E;
   border-left: 2px solid #E5CA5E;
-  border-color: #F5F1ED;
+  border-color: #F4F4F4;
   color:black;
   background-color: #fff;
   outline: 30px solid #fff;
@@ -1194,9 +1234,9 @@ border-top-left-radius: 30px 30px;
   border-right: 2px solid #E5CA5E;
   border-left: 2px solid #E5CA5E;
   
-  border-color: #C8B18F;
-  background-color: #F5F1ED;
-  color:#C8B18F;
+  border-color: #D6AE52;
+  background-color: #F4F4F4;
+  color:#D6AE52;
   
   text-align: center;
 }
@@ -1207,7 +1247,7 @@ border-top-left-radius: 30px 30px;
   border-right: 6px solid white;
   border-left: 6px solid white;
   
-  border-color: #8F441F;
+  border-color: #D6AE52;
 
   color:black;
   
@@ -1219,7 +1259,7 @@ border-top-left-radius: 30px 30px;
   border-right: 4px solid white;
   border-left: 4px solid white;
   
-  border-color: #C8B18F;
+  border-color: #D6AE52;
 
   color:black;
  
@@ -1398,7 +1438,7 @@ box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
 .btnComoLlegar{
   text-decoration: none;
   color:#FFF;
-  background-color: #8F441F; 
+  background-color: #3A3B40; 
   font-family: 'Cantata One', serif;
   font-size: 11px;
    height: 45px;
@@ -1406,6 +1446,7 @@ box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
   justify-content: center;
   align-items: center;
   letter-spacing: 2px;
+  z-index: 999;
 }
 
 .btnComoLlegar:hover{
@@ -1413,7 +1454,7 @@ box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
   background-color: transparent; 
   font-family: 'Cantata One', serif; 
   font-size: 11px;
-  color:#8F441F;
+  color:#3A3B40;
   height: 45px;
   letter-spacing: 2px;
 
@@ -1421,7 +1462,7 @@ box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
   border-bottom: 2px solid ;
   border-right: 2px solid ;
   border-left: 2px solid ;
-  border-color: #8F441F;
+  border-color: #3A3B40;
 }
 .mujeres{
 color:#252323;  
@@ -1431,7 +1472,7 @@ letter-spacing: 3px;
 margin-left: -18px;
 }
 .mujeres2{
-color:#8F441F;  
+color:#D6AE52;  
 font-family: 'Cantata One', serif;
 font-size: 13px; 
 letter-spacing: 3px;
@@ -1444,7 +1485,7 @@ font-size: 13px;
 letter-spacing: 3px;
 }
 .hombres2{
-color:#8F441F;  
+color:#D6AE52;  
 font-family: 'Cantata One', serif; 
 font-size: 13px;
 letter-spacing: 3px;
@@ -1467,7 +1508,7 @@ letter-spacing: 3px;
 margin-left: -30px;
 }
 .mujeres2{
-color:#8F441F;  
+color:#D6AE52;  
 font-family: 'Cantata One', serif;
 font-size: 20px; 
 letter-spacing: 3px;
@@ -1481,7 +1522,7 @@ letter-spacing: 3px;
 margin-left: -15px;
 }
 .hombres2{
-color:#8F441F;  
+color:#D6AE52;  
 font-family: 'Cantata One', serif; 
 font-size: 13px;
 letter-spacing: 3px;
@@ -1496,7 +1537,7 @@ margin-left: 5px;
 .btnComoLlegar{
   text-decoration: none;
   color:#FFF;
-  background-color: #8F441F; 
+  background-color: #D6AE52; 
   font-family: 'Cantata One', serif;
   font-size: 9px;
    height: 45px;
@@ -1510,6 +1551,18 @@ margin-left: 5px;
 
 
 @media (min-width: 1200px) { /*laptop*/
+  .botas{
+  background-image: url(../img/botas5.jpg); 
+  background-size: 50%; 
+  background-repeat: no-repeat; 
+  background-color: white;
+  background-position-x: center;
+}
+ .disco{
+  background-image: url(../img/discoteca6.jpg); 
+  background-size: 50%; 
+  background-position-x: center;
+}
   .portada{
 
     
@@ -1519,12 +1572,12 @@ margin-bottom: 0px;
 position: center;
 z-index: 99px;
 
-background-image: url(../img/A&E-1346.jpg); 
+background-image: url(../img/portada3.jpeg); 
 position: relative; 
 background-attachment: fixed;
 background-repeat: no-repeat;
-background-size: 50%;
-background-position: center;
+background-size: 30%;
+background-position-x: center;
 display: block;
   margin: auto;
 
@@ -1580,7 +1633,7 @@ letter-spacing: 3px;
 margin-left: -30px;
 }
 .mujeres2{
-color:#8F441F;  
+color:#D6AE52;  
 font-family: 'Cantata One', serif;
 font-size: 20px; 
 letter-spacing: 3px;
@@ -1594,7 +1647,7 @@ letter-spacing: 3px;
 margin-left: -15px;
 }
 .hombres2{
-color:#8F441F;  
+color:#D6AE52;  
 font-family: 'Cantata One', serif; 
 font-size: 13px;
 letter-spacing: 3px;
@@ -1604,6 +1657,32 @@ margin-left: 25px;
 }
 
 @media all and (device-width: 820px) and (device-height: 1180px) and (orientation:portrait) { /*IPAD AIR*/
+   .botas{
+  background-image: url(../img/botas5.jpg); 
+  background-size: 60%; 
+  background-repeat: no-repeat; 
+  background-color: white;
+  background-position-x: center;
+}
+ .disco{
+  background-image: url(../img/discoteca6.jpg); 
+  background-size: 50%; 
+  background-position-x: center;
+}
+  .portada{
+width: 100%;
+height: 550px;
+margin-top: 0px;
+margin-bottom: 0px;
+position: center;
+z-index: 99px;
+background-size: 50%; 
+background-image: url(../img/portada3.jpeg); 
+position: relative; 
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-position-x: center;
+}
   .curveado4{
     position: absolute;
     width: 100%;
@@ -1622,6 +1701,32 @@ margin-left: 25px;
 }
 }
 @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {/*iPAD MINI*/
+   .botas{
+  background-image: url(../img/botas5.jpg); 
+  background-size: 60%; 
+  background-repeat: no-repeat; 
+  background-color: white;
+  background-position-x: center;
+}
+ .disco{
+  background-image: url(../img/discoteca6.jpg); 
+  background-size: 50%; 
+  background-position-x: center;
+}
+    .portada{
+width: 100%;
+height: 550px;
+margin-top: 0px;
+margin-bottom: 0px;
+position: center;
+z-index: 99px;
+background-size: 50%; 
+background-image: url(../img/portada3.jpeg); 
+position: relative; 
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-position-x: center;
+}
   .curveado4{
     position: absolute;
     width: 100%;
@@ -1673,12 +1778,12 @@ margin-left: 25px;
    font-family: 'Cantata One', serif;
   text-decoration:none;
   color:#fff;
-  background-color: #8F441F;
+  background-color: #3A3B40;
   border-top: 3px solid ;
   border-bottom: 3px solid ;
   border-right: 3px solid ;
   border-left: 3px solid ;
-  border-color: #8F441F;
+  border-color: #3A3B40;
   height: 45px;
   font-size: 15px;
   font-weight: bold;
@@ -1691,15 +1796,26 @@ margin-left: 25px;
 .btnWhatsNovios:hover{
   text-decoration:none;
   background-color: transparent;
-  color: #8F441F;
+  color: #fff;
   border-top: 2px solid ;
   border-bottom: 2px solid ;
   border-right: 2px solid ;
   border-left: 2px solid ;
-  border-color: #8F441F;
+  border-color: #fff;
  
 }
-
+.evitarDress{
+  
+  color:#D6D0B4;
+  background-color: #24292F;
+  border-top: 1px solid #E5CA5E;
+  border-bottom: 1px solid #E5CA5E;
+  border-right: 1px solid #E5CA5E;
+  border-left: 1px solid #E5CA5E;
+border-color: #24292F;
+  
+  
+}
 .btnHoteles{
   font-family: 'Cantata One', serif;
 letter-spacing: 3px;
@@ -1707,7 +1823,7 @@ letter-spacing: 3px;
   height: 50px;
   font-size: 12px;
 
-background-color:#8F441F; 
+background-color:#D6AE52; 
 color:white;
 display:flex;
   justify-content: center;
@@ -1717,8 +1833,8 @@ display:flex;
 
 .btnHoteles:hover{
   text-decoration:none;
-  color: #8F441F;
-  border-color: #8F441F;
+  color: #D6AE52;
+  border-color: #D6AE52;
   background-color: white;
 
  
@@ -1829,7 +1945,7 @@ margin-top: 0px;
     cursor:pointer;
     width:50px;
     height:50px;
-    background-color:#8F441F;
+    background-color:#3A3B40;
     border-color: #9B7A07;
     text-indent:-9999px;
     display:none;
@@ -1850,7 +1966,7 @@ margin-top: 0px;
     border-bottom-color:#ffffff;
 }
 #scroll:hover {
-    background-color:#C8B18F;
+    background-color:#24292F;
     opacity:1;filter:"alpha(opacity=100)";
     -ms-filter:"alpha(opacity=100)";
 }
@@ -2138,38 +2254,38 @@ time {
 }
 
 audio::-webkit-media-controls-panel {
-  background-color: #fff;
+  background-color: #E8E8F1;
   box-shadow: 2px 2px 2px #696969;
 
 }
 audio::-webkit-media-controls-mute-button {
-  background-color: #C8B18F;
+  background-color: #fff;
   border-radius: 50%;
 }
 audio::-webkit-media-controls-play-button{
-  background-color: #C8B18F;
+  background-color: #fff;
   border-radius: 50%;
   color:white;
 }
 audio::-webkit-media-controls-play-button:hover {
-  background-color: #C8B18F;
+  background-color: #E8E8F1;
   color: white;
 }
 audio::-webkit-media-controls-current-time-display {
-  color: #C8B18F;
+  color: #3A3B40;
 }
 audio::-webkit-media-controls-time-remaining-display {
-  color: #C8B18F;
+  color: #3A3B40;
 }
 audio::-webkit-media-controls-timeline {
-  background-color: #fff;
+  background-color: #E8E8F1;
   color:transparent;
   border-radius: 25px;
   margin-left: 10px;
   margin-right: 10px;
 }
 audio::-webkit-media-controls-volume-slider {
-  background-color: #fff;
+  background-color: #E8E8F1;
   border-radius: 25px;
   
 }
